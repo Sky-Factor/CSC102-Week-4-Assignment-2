@@ -1,0 +1,33 @@
+/* Header settings   */
+h1
+{
+    color: rgba(215, 101, 7, 0.749);
+
+}
+
+/*Button settings*/
+button
+{
+    color: rgba(215, 101, 7, 0.749);
+    border-color: rgba(215, 101, 7, 0.749);
+    background-color: rgb(188, 174, 149);
+    font-size: larger;
+}
+/* upon Hover change color to... */
+button:hover {
+    transition-duration: 0.4s;
+  background-color: rgb(118, 107, 88);
+  color: rgba(164, 78, 8, 0.749);
+}
+
+
+
+/*Boday Settings */
+body
+{
+    background-image: url(MainPage.avif);
+    /*keeps imagine from repeating on the x and y*/
+    background-repeat: no-repeat;
+    /*Allows image to scale to screen size instead just being in the corner*/
+    background-size: cover;
+}

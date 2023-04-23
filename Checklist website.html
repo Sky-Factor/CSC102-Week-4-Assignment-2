@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Flight</title>
+
+    <!-- connect to javascript-->
+    <script src = "MainPage.js"></script>
+   <!--connect to CSS-->
+    <link rel = "stylesheet" type = "text/css" href = "ChecklistCSS.css">
+
+</head>
+<body>
+
+<h1>Let's Begin</h1>
+<!--give the overview of the settup-->
+<button onclick="Overview()">Overview</button> 
+
+
+<center>
+        <!--generates table-->
+      <table class = "tablTop" id = "Checklist" border = "2" width = "80%">
+        <!--gives the number of boxes and the amount of space taken from main determinor-->
+        <col style = "width: 20%;">
+        <col style = "width: 20%;">
+        <col style = "width: 20%;">
+        <col style = "width: 20%;">
+<tr style = "font-family: fantasy;"> 
+            <th>DJI Air 2s Specs</th>
+</tr>
+
+<tr></tr>
+        <td>Weight 595g</td><td>Max Ascend speed 6 m/s</td><td>Max Flight (no Wind) 31min</td><td>Max distence 18.5 km</td>
+</tr>
+<tr>
+        <td><strong>Speed Modes</strong></td><td>(S mode) 19m/s</td><td>(N mode) 15m/s</td><td>(C Mode) 5 m/s</td>
+</tr>
+<tr>
+        <td></td><td>Operating Temprature 0° to 40°C</td><td>Operating Frequency 2.4GHz & 5.8GHz</td><td></td>
+</tr>
+    </table>
+</center>
+
+<h3>Equitment</h3>
+<input type="checkbox" id="Battery1" name="Battery1" value="Battery1">
+<label for="Battery1"> 1 Battery</label><br>
+
+<input type="checkbox" id="Battery2" name="Battery2" value="Battery2">
+<label for="Battery2"> 2 Batteries</label><br>
+
+<input type="checkbox" id="Battery3" name="Battery3" value="Battery3">
+<label for="Battery3"> 3 Batteries</label><br>
+
+<input type="checkbox" id="Guard" name="Guard" value="Saftey Guard">
+<label for="Guard"> Saftey Guard</label><br>
+
+<input type="checkbox" id="Vest" name="Vest" value="Vest">
+<label for="Vest"> Vest</label><br>
+
+<input type="checkbox" id="Landing" name="Landing" value="Landing">
+<label for="Landing"> Landing Pad</label><br>
+
+<input type="checkbox" id="ID" name="ID" value="ID">
+<label for="ID"> Liscence and Registration</label><br>
+
+<h3>Weather</h3>
+<input type="checkbox" id="WindLow" name="WindLow" value="WindLow">
+<label for="WindLow"> Wind 1-20mph</label><br>
+
+<input type="checkbox" id="WindHigh" name="WindHigh" value="WindHigh">
+<label for="WindHigh"> Wind 20-30</label><br>
+
+<input type="checkbox" id="Visibility" name="Visibility" value="Visibility">
+<label for="Visibility"> Mist/Fog</label><br>
+
+<input type="checkbox" id="Day" name="Day" value="Day">
+<label for="Day"> Day</label><br>
+
+<input type="checkbox" id="Night" name="Night" value="Night">
+<label for="Night"> Night</label><br>
+
+<h3>laws</h3>
+<input type="checkbox" id="Airspace" name="Airspace" value="Airspace">
+<label for="Airspace"> Authorized Airspace</label><br>
+
+<input type="checkbox" id="ID" name="ID" value="ID">
+<label for="ID"> ID on Drone</label><br>
+
+<input type="checkbox" id="RID" name="RID" value="RID">
+<label for="RID"> Romote ID</label><br>
+
+
+
+<!--adds Audio-->
+<center>
+<audio controls autoplay>
+        
+    <source src="Welcome.mp3" type="audio/mpeg">
+
+  </audio>
+
+</center>
+</body>
+</html>
